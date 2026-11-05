@@ -1,0 +1,7 @@
+src/* -text
+include/* -text
+resources/* -text
+BUILD.BAT -text
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
