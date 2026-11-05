@@ -108,8 +108,6 @@ Inspired by Tony814's VGAon8088 work.
 
 ## The Center
 
-> Chad Doebelin's Video Card Drivers For Computers Who Can't Do 8-bit external data buses and want to Queue better too?
-
 **The Chad Doebelin Center for Video Card Drivers Who Can’t Do 16-Bit Data Buses Good and Wanna Fetch Instructions Good Too.**
 
 The driver has to be at least… three bytes smaller than this!
