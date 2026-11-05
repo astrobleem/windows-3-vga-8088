@@ -7,12 +7,10 @@ Source-built Windows 3.0 **real-mode** VGA drivers for 8086/8088-class CPUs: **6
 
 
 
-## Tetris on an emulated 8088
 
 ![Tetris for Windows About box under Windows 3.0 on a MartyPC-emulated 8088](evidence/VGA88-Tetris-MartyPC-8088.png)
 
-Claude's test screenshot: Tetris for Windows displaying its About box under Windows 3.0 on a MartyPC-emulated 8088, using VGA88 at 640 × 480, 16 colors. No bridge is required. Gameplay, input and physical hardware were not tested.
-
+Test screenshot: Tetris for Windows displaying its About box under Windows 3.0 on a MartyPC-emulated 8088, using VGA88 at 640 × 480, 16 colors. 
 ## Choose a mode
 
 - **640 × 480, 16 colors:** [dist/VGA88.DRV](dist/VGA88.DRV), the original higher-resolution driver. Its source and build command below are unchanged.
