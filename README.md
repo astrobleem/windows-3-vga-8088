@@ -67,7 +67,9 @@ Use a disposable Windows 3.0 installation configured for standard VGA 640×480, 
 
 ## Validation and details
 
-![Actual display during the GDI suite](evidence/VGA88-GDI-suite-running.png)
+![Intentional GDI test pattern: color bars and overlapping XOR rectangles](evidence/VGA88-GDI-suite-running.png)
+
+Intentional GDI test pattern: color bars and overlapping XOR rectangles exercise screen-to-memory-to-screen blits. This is expected test output, not display corruption.
 
 - [GUI source](tests/EGAQA.C)
 
