@@ -43,7 +43,7 @@ The 256-color driver passed the same Win16 test on DOSBox-X's 386 and `8086_pref
 
 Windows 3.0 can run in real mode on an 8088, but its VGA display-driver sources contain later-CPU instructions. Fixing visible instructions alone is insufficient: the BitBlt compiler also emits immediate-count rotates at runtime. The original 8088 additionally needs care when interrupts restart repeated string instructions with more than one prefix.
 
-This project fixes and assembles the source, including the runtime code generator. It uses the retail Windows 3.0 DDK and matching Windows 3.0 SDK macros. The genuine VGA backend is retained: BIOS mode 12h, VGA DAC programming, 480-line cursor limits, 96-DPI metrics, VGA state/save-bitmap modules and RC-HIGH resources. This is not the EGA 640×350 build renamed as VGA.
+Both drivers fix and assemble the source, including the runtime code generator. The 640 × 480 driver uses the retail Windows 3.0 DDK and matching Windows 3.0 SDK macros. Its genuine VGA backend is retained: BIOS mode 12h, VGA DAC programming, 480-line cursor limits, 96-DPI metrics, VGA state/save-bitmap modules and RC-HIGH resources. This is not the EGA 640×350 build renamed as VGA.
 
 The protected-mode-only 386 text renderer is omitted, and protected-mode physical enablement is explicitly rejected. **Use Windows real mode (`WIN /R`).**
 
