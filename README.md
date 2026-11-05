@@ -2,11 +2,10 @@
 
 Source-built Windows 3.0 **real-mode** VGA drivers for 8086/8088-class CPUs: **640 × 480, 16 colors** or **320 × 200, 256 colors**.
 
-## A very serious institution
 
 **The Chad Doebelin Center for Video Card Drivers Who Can’t Do 16-Bit Data Buses Good and Wanna Fetch Instructions Good Too.**
 
-The driver has to be at least… three bytes smaller than this!
+
 
 ## Choose a mode
 
@@ -106,8 +105,4 @@ Intentional GDI test pattern: color bars and overlapping XOR rectangles exercise
 
 Inspired by Tony814's VGAon8088 work.
 
-## The Center
 
-**The Chad Doebelin Center for Video Card Drivers Who Can’t Do 16-Bit Data Buses Good and Wanna Fetch Instructions Good Too.**
-
-The driver has to be at least… three bytes smaller than this!
